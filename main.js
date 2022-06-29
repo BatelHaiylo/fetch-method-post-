@@ -19,9 +19,8 @@ function printWeatherToScreen() {
         document.getElementById(
           "city_weather_data"
         ).innerText += `${key}: ${item}`;
-      }document.getElementById(
-        "city_weather_data"
-      ).innerText +=`\n`
+      }
+      document.getElementById("city_weather_data").innerText += `\n`;
     }
   });
 }
